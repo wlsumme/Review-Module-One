@@ -9,6 +9,9 @@ namespace Review_1
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("---------------");
+            Console.WriteLine("---------------");
             Console.WriteLine("Radius of circle?");
             double radius = double.Parse(Console.ReadLine());
             double circle = AreaOfCircle(radius);
